@@ -3,7 +3,7 @@ import { useAddTodoMutation } from '../store/slices/apiSlice';
 
 const TodoForm = () => {
   const [text, setText] = useState('');
-  const [status] = useState<'inProgress' | 'done'>('inProgress'); 
+  const [status] = useState< 'todo' | 'inProgress' | 'done'>('todo'); 
   const [addTodo] = useAddTodoMutation();
 
   const handleSubmit = async (e: React.FormEvent) => {
