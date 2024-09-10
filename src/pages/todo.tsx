@@ -28,7 +28,7 @@ const TodosPage = () => {
   };
 
   const onDragOver = (event: React.DragEvent<HTMLDivElement>) => {
-    event.preventDefault(); // Allow dropping by preventing default behavior
+    event.preventDefault();
   };
 
   const onDrop = async (status: Todo['status']) => {
