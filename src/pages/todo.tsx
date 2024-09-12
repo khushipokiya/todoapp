@@ -104,6 +104,6 @@ const TodosPage = () => {
       </div>
     </div>
   );
-};
+}; 
 
 export default TodosPage;
